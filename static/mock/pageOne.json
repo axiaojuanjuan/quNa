@@ -1,0 +1,29 @@
+{
+	"ret":true,
+	"data":{
+		"imgSwiper":[
+			{"id":1,"href":"","img":"http://img1.qunarzz.com/piao/fusion/1711/b3/66f7230d9ad6e002.jpg_640x200_077e61ee.jpg"},
+			{"id":2,"href":"","img":"http://img1.qunarzz.com/piao/fusion/1711/b3/66f7230d9ad6e002.jpg_640x200_077e61ee.jpg"},
+			{"id":3,"href":"","img":"http://img1.qunarzz.com/piao/fusion/1711/b3/66f7230d9ad6e002.jpg_640x200_077e61ee.jpg"},
+			{"id":4,"href":"","img":"http://img1.qunarzz.com/piao/fusion/1711/b3/66f7230d9ad6e002.jpg_640x200_077e61ee.jpg"},
+			{"id":5,"href":"","img":"http://img1.qunarzz.com/piao/fusion/1711/b3/66f7230d9ad6e002.jpg_640x200_077e61ee.jpg"},
+			{"id":6,"href":"","img":"http://img1.qunarzz.com/piao/fusion/1711/b3/66f7230d9ad6e002.jpg_640x200_077e61ee.jpg"}
+		],
+		"iconSwiper":[
+			{"id":1,"href":"","title":"景点门票","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":2,"href":"","title":"动植物园","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":3,"href":"","title":"故宫","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":4,"href":"","title":"一日游","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"景点门票","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"故宫","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"景点门票","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"一日游","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"景点门票","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"一日游","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"动植物园","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"故宫","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"景点门票","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"},
+			{"id":1,"href":"","title":"故宫","img":"http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"}
+		]
+	}
+}
