@@ -1,12 +1,12 @@
 <template>
-	<div>
+	<div class="swiper">
 		<swiper :options="swiperOption">
 		    <swiper-slide v-for="item in imgInfo" key="item.id">
 		    	<div class="img-box">
 		    		<img :src="item.img" alt="哈哈哈" />
 		    	</div>
 		    </swiper-slide>
-		    <div class="swiper-pagination" slot="pagination" v-for="item in imgInfo" key="item.id"></div>
+		    <div class="swiper-pagination" slot="pagination"></div>
 		</swiper>
 	</div>
 	
@@ -18,7 +18,6 @@
 		props:["imgInfo"],
 		data(){
 			return{
-//				banners:[1,2,3,4],
 				swiperOption: {
 		            direction: 'horizontal',//水平方向轮播
 			        autoHeight: true,//自适应高度
@@ -37,6 +36,9 @@
 
 <style scoped>
 	@import '~swiper/dist/css/swiper.css';
+	.swiper{
+		background: #fff;
+	}
 	 .img-box{
 	 	background: #eee;
 	    overflow: hidden;
@@ -48,7 +50,6 @@
 	 .img-box img{
 	 	width:100%;
 	 }
-	 
 </style>
 <style>
 	/*.swiper-pagination-bullet-active{

@@ -12,4 +12,7 @@ export default {
 
 <style>
 	@import "assets/css/base/reset.css";
+	#app{
+		background: #f5f5f5;;
+	}
 </style>

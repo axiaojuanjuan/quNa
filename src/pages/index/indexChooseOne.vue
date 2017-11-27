@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="choose-one-box" v-for="(item,index) in classifyInfoOne" key="item.id" :class="[{bgPink:index == 0},{bgSkyBlue:index == 1},{bgGreen:index==2}]">
+		<div class="choose-one-box" v-for="(item,index) in classifyInfoOne" key="index" :class="[{bgPink:index == 0},{bgSkyBlue:index == 1},{bgGreen:index==2}]">
 			<div class="total">
 				<router-link :to="item.href1">
 					<spna class="title">{{item.title1}}</spna>

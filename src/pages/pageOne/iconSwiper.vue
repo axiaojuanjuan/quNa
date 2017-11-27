@@ -1,24 +1,25 @@
 <template>
-	<div>
+	<div class="icon-swiper">
 		<swiper :options="swiperOption" ref="mySwiper">
-		    <swiper-slide>
-		    	<ul class="box" v-for="page in pages">
-		    		<li v-for="item in page">
-	    				<img class="img-style" :src="item.img" alt="" />
-	    				<span class="title">{{item.title}}</span>
-		    		</li>
-		    	</ul>
+		    <swiper-slide v-for="(page,index) in pages" key="index">
+		    	<div class="box">
+		    		<ul >
+			    		<li v-for="item in page" key="item.id">
+		    				<img class="img-style" :src="item.img" alt="" />
+		    				<span class="title">{{item.title}}</span>
+			    		</li>
+			    	</ul>
+		    	</div>
 		    </swiper-slide>
-		    <div class="swiper-pagination"  slot="pagination" v-for="page in pages"></div>
-		 </swiper>
-		 <div>111</div>
+		    <div class="swiper-pagination"  slot="pagination" ></div>
+		</swiper>
 	</div>
 </template>
 
 <script>
 import {swiper, swiperSlide} from 'vue-awesome-swiper'
 export default {
-    props:["iconsInfo"],
+    props:["iconInfo"],
     data () {
 	    return {
 	        swiperOption: {
@@ -33,14 +34,13 @@ export default {
     computed: {
       pages: function () {
         const pages = [];
-        for (var i = 0; i < this.iconsInfo.length; i++) {
+        for (var i = 0; i < this.iconInfo.length; i++) {
           let page = Math.floor(i / 8);
           if (!pages[page]) {
             pages[page] = [];
           }
-          pages[page].push(this.iconsInfo[i]);
+          pages[page].push(this.iconInfo[i]);
         }
-        console.log(pages)
         return pages;
       }
     },
@@ -53,7 +53,17 @@ export default {
 
 <style scoped>
 	@import '~swiper/dist/css/swiper.css';
+	.icon-swiper{
+		background: #fff;
+	}
 	.box{
+		width:100%;
+		height:0;
+		padding-bottom:37.25%;
+		position: relative;
+		overflow: hidden;
+	}
+	ul{
 		width:100%;
 		height:0;
 		padding-bottom:37.25%;
